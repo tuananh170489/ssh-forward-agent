@@ -16,7 +16,7 @@ Add ssh key to agent
 ```
 ssh-add -K ~/.ssh/id_rsa
 ```
-Or add following line into ssh config
+Or add following lines to ssh config
 ```
 Host *
   AddKeysToAgent yes
